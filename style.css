@@ -1,5 +1,5 @@
 html {
-  height: 1610px;
+  height: 1640px;
   position: relative;
   width: 917px;
   margin-left: auto;
@@ -186,14 +186,38 @@ body {
       width: 195px;
     }
 
+    .footer_left {
+      margin-top: 18px;
+      width: 420px;
+      float: left;
+      border: 1px solid #e6e6e6;
+    }
 
-  .footer {
-    height: 50px;
-    border: 1px solid red;
-  }
+    .footer_center {
+      margin-left: auto;
+      margin-right: auto;
+      height: 33px;
+      width: 31px;
+      border: 1px solid #e6e6e6;
+    }
 
+    .footer_right {
+      margin-top: -18px;
+      width: 420px;
+      float: right;
+      border: 1px solid #e6e6e6;
+    }
 
+    .mainfooter {
+      text-align: center;
+      color: #e6e6e6;
+    }
 
+.copywrite {
+  margin-top: 25px;
+  margin-bottom: 1PX;
+}
 
-
-  .
+.pubbed {
+  margin-top: 1px;
+}
