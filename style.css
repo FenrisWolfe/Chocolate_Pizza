@@ -20,29 +20,36 @@ body {
 }
 
 .grey_bar {
+  margin-top: 20px;
   background: repeating-linear-gradient(
     45deg,
-    #8F99AB,
-    #8F99AB 1px,
+    #E6E6E6,
+    #E6E6E6 1px,
     #FCF7FC 1px,
     #FCF7FC 2px
     );
     width: 900px;
     height: 10px;
-    /*border: 1px solid orange;*/
     background-color: LightGrey;
+    margin-bottom: 30px;
   }
 
   .top_bar_text {
+    font-weight: bold;
+    margin-top: -10px;
     font-family: 'Oswald', serif;
-    font-size: 25px;
+    font-size: 38px;
+  }
+  .posted_text {
+    position: absolute;
+    margin-top: -30px;
+    font-size: 11px;
   }
 
   .top {
-    font-size: 8px;
     width: 900px;
     height: 60px;
-    border: 1px solid blue;
+    margin-bottom: 25px;
   }
 
   .top_left {
@@ -74,7 +81,7 @@ body {
   }
 
   .para {
-    text-indent: 20px;
+    text-indent: 25px;
   }
 
   .recipe {
@@ -84,20 +91,43 @@ body {
   }
 
   ul {
-    font-size: 25px;
+    font-size: 27px;
     list-style: none;
   }
 
+  li {
+    font-family: 'Patrick Hand', cursive;
+  }
+
+  .checked:checked + .chkd_label {
+    text-decoration: line-through;
+  }
+
   .right {
-    margin-right: 25%;
+    margin-top: 37px;
+    margin-right: 1%;
     float: right;
   }
   .left {
-    margin-left: 2%;
+    margin-top: 37px;
+    margin-left: 1%;
     float: left;
   }
 
+  .bottom_bar {
+    position: relative;
+  }
+  .vanessa_pic {
+    float: left;
+  }
 
+  #vanessa {
+    float: left;
+  }
+
+  #mini_bio {
+    font-size: 10px;
+  }
 
 
 
