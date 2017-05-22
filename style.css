@@ -12,6 +12,11 @@ body {
   height: 1500px;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 #header_bar {
   width: 900px;
   height: 60px;
@@ -58,6 +63,8 @@ body {
   }
 
   .top_right {
+    display: inline;
+    margin-right: -60px;
     float: right;
     width: 285px;
     margin-top: -50px;
@@ -119,7 +126,7 @@ body {
   }
 
   ul {
-    font-size: 27px;
+    font-size: 23px;
     list-style: none;
   }
 
@@ -162,6 +169,7 @@ body {
     }
 
     .bottomline {
+      color: #e6e6e6;
       margin-top: 5px;
       margin-left: -193px;
       float: left;
@@ -170,6 +178,7 @@ body {
     }
 
     .bottomline2 {
+      color: #e6e6e6;
       margin-top: 1px;
       margin-left: -583px;
       font-size: 20px;
@@ -181,7 +190,7 @@ body {
       background-color: #AB2C0C;
       color: white;
       float: right;
-      margin-top: -95px;
+      margin-top: -90px;
       width: 195px;
     }
 
